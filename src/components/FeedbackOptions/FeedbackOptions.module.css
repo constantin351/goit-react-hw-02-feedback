@@ -1,0 +1,24 @@
+.feedbackoptions_list {
+  display: flex;
+  justify-content: center;
+}
+
+.feedbackoptions_item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.feedbackoptions_btn {
+  width: 130px;
+  padding: 8px 30px;
+  background-color: lightskyblue;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 800;
+  border: none;
+  cursor: pointer;
+  box-shadow: 4px 2px 5px 0px rgba(0, 0, 0, 0.37);
+}
+
+.feedbackoptions_btn:first-letter {
+  text-transform: uppercase;
+}
